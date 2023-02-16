@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import HelloWor from "./Components/HelloWor";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <HelloWor></HelloWor>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
